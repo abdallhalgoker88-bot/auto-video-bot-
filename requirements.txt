@@ -1,4 +1,53 @@
-google-generativeai
-gtts
-moviepy
-requests
+# Core dependencies
+requests>=2.28.0
+python-dotenv>=0.20.0
+
+# Video/Media processing
+moviepy>=1.0.3
+opencv-python>=4.6.0
+Pillow>=9.0.0
+imageio>=2.21.0
+imageio-ffmpeg>=0.4.7
+
+# AI/ML
+numpy>=1.23.0
+scipy>=1.9.0
+scikit-learn>=1.1.0
+
+# Web framework (if needed)
+Flask>=2.2.0
+Werkzeug>=2.2.0
+
+# Database
+SQLAlchemy>=1.4.0
+
+# Async processing
+celery>=5.2.0
+redis>=4.3.0
+
+# Logging & Monitoring
+python-logging-loki>=0.3.2
+
+# Testing
+pytest>=7.2.0
+pytest-cov>=4.0.0
+pytest-asyncio>=0.20.0
+
+# Code quality
+black>=22.10.0
+flake8>=5.0.0
+pylint>=2.15.0
+isort>=5.11.0
+
+# Documentation
+Sphinx>=5.3.0
+sphinx-rtd-theme>=1.0.0
+
+# Utilities
+tqdm>=4.64.0
+pydantic>=1.9.0
+marshmallow>=3.18.0
+
+# Development
+ipython>=8.5.0
+jupyterlab>=3.5.0
